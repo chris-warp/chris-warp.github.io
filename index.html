@@ -162,5 +162,19 @@
             <p>Weena 723 Unit C2.070 – 3013 AM Rotterdam<br/>The Netherlands – +31(0)10 34 000 75</p>
         </div>
     </div>
+    <canvas id="canvas"></canvas>
+    <script src="smoke.js"></script>
+    <script>
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        var party = smokemachine(ctx, [255, 255, 255]);
+        party.start();
+        setInterval(function(){
+            party.addsmoke(canvas.width/2, canvas.height*0.75, 25); // wow we made smoke
+        }, 1000);
+    </script>
   </body>
 </html>
