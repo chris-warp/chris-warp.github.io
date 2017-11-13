@@ -113,7 +113,40 @@
           z-index: -1;
         }
 
-        @media screen and (min-width: 640px) {
+        @media screen and (min-width: 595px), screen and (min-height: 760px) {
+            .box {
+                position: absolute;
+                left: 25%;
+                width: 50%;
+                height: 100%;
+            }
+
+            h1.wordmark {
+                margin-bottom: 128px;
+            }
+
+            div.footer p {
+                font-size: 12pt;
+            }
+
+            p.message {
+                font-size: 24pt;
+                line-height: 32pt;
+            }
+
+            div.footer div.social {
+                margin-bottom: 16pxx;
+            }
+
+            #rocket {
+              width: 202px;
+              height: 280px;
+              margin-left: -111px;
+              bottom: 85px;
+            }
+        }
+
+        @media screen and (min-width: 640px) and (min-height: 800px)  {
             .box {
                 position: absolute;
                 left: 25%;
@@ -172,7 +205,7 @@
         </div>
     </div>
     <canvas id="canvas"></canvas>
-    <script src="smoke.js"></script>
+<!--     <script src="smoke.js"></script>
     <script>
         var canvas = document.getElementById('canvas');
         var ctx = canvas.getContext('2d');
@@ -184,6 +217,6 @@
         setInterval(function(){
             party.addsmoke(canvas.width/2, canvas.height*0.75, 25); // wow we made smoke
         }, 1000);
-    </script>
+    </script> -->
   </body>
 </html>
