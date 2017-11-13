@@ -46,6 +46,15 @@
             line-height: 26pt;
         }
 
+        p.message2 {
+            margin: -15px 0 15px 0;
+            padding: 0;
+            font-family: 'Montserrat', serif;
+            font-size: 18pt;
+            font-weight: 100;
+            line-height: 26pt;
+        }
+
         .btn {
             background-color: #EE1A00;
             padding: 16px 24px;
@@ -72,7 +81,7 @@
 
         .middle {
             display: table-cell;
-            vertical-align: middle;
+            vertical-align: bottom;
         }
 
         .inner {
@@ -94,8 +103,8 @@
             width: 40px;
             height: 40px;
             margin: 0 4px;
-            margin-bottom: 4px;
         }
+
         .social img:hover {
             opacity: 0.7;
         }
@@ -107,7 +116,7 @@
         #rocket {
           position: absolute;
           left: 50%;
-          bottom: 145px;
+          top: 60px;
           width: 144px;
           height: 160px;
           margin-left: -72px;
@@ -115,6 +124,61 @@
           background-repeat: no-repeat;
           background-size: 100%;
           z-index: -1;
+        }
+
+        @media screen and (min-width: 415px) {
+            .box {
+                position: absolute;
+                left: 25%;
+                width: 50%;
+                height: 100%;
+            }
+
+            .outer {
+                height: 75%;
+            }
+
+            h1.wordmark {
+                margin-bottom: 128px;
+            }
+
+            div.footer p {
+                font-size: 8pt;
+            }
+
+            p.message {
+                font-size: 12pt;
+                line-height: 32pt;
+            }
+
+            .btn {
+                padding: 8px 12px;
+                border: none;
+                font-family: 'Montserrat', serif;
+                font-size: 7.5pt;
+                font-weight: 100;
+                text-transform: uppercase;
+                cursor: pointer;
+                margin-bottom: 12px;
+            }
+
+            div.footer div.social {
+                margin-bottom: 8px;
+            }
+
+            .social img {
+                width: 30px;
+                height: 30px;
+                margin: 0 4px;
+                margin-bottom: 4px;
+            }
+
+            #rocket {
+              width: 0px;
+              height: 0px;
+              margin-left: -95px;
+              top: 90px;
+            }
         }
 
         @media screen and (min-width: 595px) and (min-height: 670px) {
@@ -150,14 +214,54 @@
             }
 
             #rocket {
-              width: 183px;
-              height: 250px;
-              margin-left: -95px;
-              bottom: 103px;
+              width: 170px;
+              height: 193px;
+              margin-left: -85px;
+              top: 90px;
             }
         }
 
-        @media screen and (min-width: 595px) and (min-height: 720px) {
+        @media screen and (min-width: 595px) and (min-height: 715px) {
+            .box {
+                position: absolute;
+                left: 25%;
+                width: 50%;
+                height: 100%;
+            }
+
+            h1.wordmark {
+                margin-bottom: 128px;
+            }
+
+            div.footer p {
+                font-size: 12pt;
+            }
+
+            p.message {
+                font-size: 24pt;
+                line-height: 32pt;
+            }
+
+            div.footer div.social {
+                margin-bottom: 16px;
+            }
+
+            .social img {
+                width: 60px;
+                height: 60px;
+                margin: 0 4px;
+                margin-bottom: 4px;
+            }
+
+            #rocket {
+              width: 183px;
+              height: 250px;
+              margin-left: -95px;
+              top: 90px;
+            }
+        }
+
+        @media screen and (min-width: 595px) and (min-height: 765px) {
             .box {
                 position: absolute;
                 left: 25%;
@@ -193,11 +297,11 @@
               width: 202px;
               height: 280px;
               margin-left: -100px;
-              bottom: 95px;
+              top: 95px;
             }
         }
 
-        @media screen and (min-width: 640px) and (min-height: 840px)  {
+        @media screen and (min-width: 640px) and (min-height: 880px)  {
             .box {
                 position: absolute;
                 left: 25%;
@@ -233,7 +337,7 @@
               width: 270px;
               height: 300px;
               margin-left: -135px;
-              bottom: 155px;
+              top: 105px;
             }
         }
     </style>
@@ -242,10 +346,12 @@
     <div class="box">
         <h1 class="wordmark">wearereasonablepeople</h1>
 
+        <div id="rocket"></div>
         <div class="outer">
             <div class="middle">
                 <div class="inner">
-                    <p class="message">We are setting out on a new, exciting course. Stay tuned for more details!</p>
+                    <p class="message">We are setting out on a new, exciting course.</p>
+                    <p class="message2">Follow Us</p>
                     <div class="social">
                         <a href="https://www.linkedin.com/company/739160/"><img src="linkedin.png"></img></a>
                         <a href="https://twitter.com/warpagency"><img src="twitter.png"></img></a>
@@ -256,14 +362,13 @@
             </div>
         </div>
 
-        <div id="rocket"></div>
         <div class="footer">
-            <a class="btn btn-primary" href="mailto:info@wearereasonablepeople.com">get in touch with us</a>
+            <a class="btn btn-primary" href="mailto:info@wearereasonablepeople.com">Get on board</a>
             <p>Weena 723 Unit C2.070 – 3013 AM Rotterdam<br/>The Netherlands – +31(0)10 34 000 75</p>
         </div>
     </div>
     <canvas id="canvas"></canvas>
-    <script src="smoke.js"></script>
+<!--     <script src="smoke.js"></script>
     <script>
         var canvas = document.getElementById('canvas');
         var ctx = canvas.getContext('2d');
@@ -275,6 +380,6 @@
         setInterval(function(){
             party.addsmoke(canvas.width/2, canvas.height*0.75, 25); // wow we made smoke
         }, 5000);
-    </script>
+    </script> -->
   </body>
 </html>
