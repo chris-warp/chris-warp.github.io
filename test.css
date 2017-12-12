@@ -14,13 +14,14 @@ p.message {
   font-weight: 100;
   font-size: 12pt;
   line-height: 1.4em;
+  text-align: center;
 }
 
 .social {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   font-size: 18pt;
   line-height: 1.4em;
+  text-align: center;
 }
 
 .social img {
