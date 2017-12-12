@@ -1,0 +1,64 @@
+#rocket {
+  display: block;
+  margin: 0 auto;
+  width: 81px;
+  height: 90px;
+  background-image: url(rocket.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 16px;
+}
+
+p.message {
+  font-family: 'Noto Serif', serif;
+  font-weight: 100;
+  font-size: 12pt;
+  line-height: 1.4em;
+}
+
+.social {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 18pt;
+  line-height: 1.4em;
+}
+
+.social img {
+  width: 30px;
+  height: auto;
+  margin: 0 4px 4px;
+}
+
+.outer {
+  height: calc(100vh - 330px);
+}
+
+@media screen and (min-height: 550px) {
+  #rocket {
+    width: 144px;
+    height: 160px;
+  }
+  
+  .outer {
+    height: calc(100vh - 400px);
+  }
+}
+
+@media screen and (min-width: 670px) and (min-height: 800px) {
+  #rocket {
+    width: 270px;
+    height: 300px;
+  }
+
+  p.message {
+    font-size: 24pt;
+  }
+
+  .social img {
+    width: 60px;
+  }
+  
+  .outer {
+    height: calc(100vh - 625px);
+  }
+}

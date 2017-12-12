@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93679556-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-93679556-1');
+        </script>
+        <title>wearereasonablepeople</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        {% if page.css %}
+            <link rel="stylesheet" href="{{ page.css }}">
+        {% endif %}
+    </head>
+    <body>
+        <header>
+            <h1 class="wordmark">wearereasonablepeople</h1>
+        </header>
+        <main>
+            {{ content }}
+        </main>
+        <footer>
+            <a class="btn btn-primary" href="mailto:info@wearereasonablepeople.com">GET IN TOUCH WITH US</a>
+            <p>Weena 723 Unit C2.070 – 3013 AM Rotterdam<br/>The Netherlands – +31(0)10 34 000 75</p>
+        </footer>
+    </body>
+</html>

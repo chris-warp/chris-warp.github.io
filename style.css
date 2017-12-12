@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat%7CNoto+Serif');
+
+body {
+  background-color: #14314f;
+  background-image: url(background.png);
+  color: #fff;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  box-sizing: border-box;
+  height: 90px;
+  padding-top: 32px;
+}
+
+main {
+  min-height: calc(100vh - 220px);
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.5pt;
+  text-transform: uppercase;
+  font-size: 13pt;
+}
+
+.btn {
+  background-color: #EE1A00;
+  padding: 8px 12px;
+  border: none;
+  font-family: 'Montserrat', serif;
+  font-size: 7.5pt;
+  font-weight: 100;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.btn:hover, .btn:active {
+  background-color: #F63300;
+}
+
+footer {
+  padding-top: 35px;
+  font-size: 8pt;
+  height: 130px;
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+}
+
+.outer {
+  width: 100%;
+  display: table;
+}
+
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 670px) and (min-height: 800px) {
+
+  body {
+    width: 50%;
+  }
+
+  header {
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 14pt;
+  }
+
+  main {
+    min-height: calc(100vh - 305px);
+  }
+
+  footer {
+    font-size: 12pt;
+    height: 185px;
+  }
+
+  .btn {
+    padding: 16px 24px;
+    font-size: 13pt;
+    margin-bottom: 24px;
+  }
+}
