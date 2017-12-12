@@ -1,0 +1,16 @@
+h2, h3 {
+  font-family: 'Noto Serif', serif;
+}
+
+main {
+  line-height: 1.7;
+}
+
+p, ul {
+  margin: 2em 0;
+}
+
+h3 {
+  margin-top: 2em;
+  font-size: 1.4em;
+}
