@@ -1,6 +1,5 @@
 ---
 layout: default
-redirect_from: "/foo/"
 ---
 ## Laborum ea esse Lorem nostrud duis, olor ex ad irure
 Magna ea incididunt nisi voluptate aliquip. Qui eu incididunt cupidatat.
