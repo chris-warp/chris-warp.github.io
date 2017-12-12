@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat%7CNoto+Serif');
 
 body {
-  background-color: #14314f;
-  background-image: url(background.png);
-  color: #fff;
+  color: #191414;
   text-align: center;
   width: 90%;
   margin: 0 auto;
@@ -30,6 +28,7 @@ h1 {
 
 .btn {
   background-color: #EE1A00;
+  color: #fff;
   padding: 8px 12px;
   border: none;
   font-size: 7.5pt;
@@ -50,8 +49,8 @@ footer {
   box-sizing: border-box;
 }
 
-a {
-  color: #fff;
+a, a:hover, a:focus {
+  color: #F02300;
 }
 
 .outer {

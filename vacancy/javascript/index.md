@@ -1,6 +1,6 @@
 ---
 layout: default
-css: vacancy.css
+css: copy.css
 ---
 ## Laborum ea esse Lorem nostrud duis, olor ex ad irure
 Magna ea incididunt nisi voluptate aliquip. Qui eu incididunt cupidatat.

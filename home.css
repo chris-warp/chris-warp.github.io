@@ -1,3 +1,9 @@
+body {
+  background-color: #14314f;
+  background-image: url(background.png);
+  color: #fff;
+}
+
 #rocket {
   display: block;
   margin: 0 auto;
