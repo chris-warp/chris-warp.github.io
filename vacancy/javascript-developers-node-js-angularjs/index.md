@@ -44,7 +44,7 @@ We offer good compensation and the best coffee you can possibly find in an offic
 
 
 ### Apply
-Please send your motivation letter and resume to talent@wearereasonablepeople.com
+Please send your motivation letter and resume to [talent@wearereasonablepeople.com](mailto:talent@wearereasonablepeople.com)
 We are also interested in a Github account or something similar where we can see your work.
 And could you let us know, how did you hear about the job opening?
 
