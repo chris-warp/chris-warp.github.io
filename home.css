@@ -1,6 +1,6 @@
 body {
   background-color: #14314f;
-  background-image: url(background.png);
+  background-image: url(assets/background.png);
   color: #fff;
 }
 
@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   width: 81px;
   height: 90px;
-  background-image: url(rocket.gif);
+  background-image: url(assets/rocket.gif);
   background-repeat: no-repeat;
   background-size: 100%;
   margin-bottom: 16px;
