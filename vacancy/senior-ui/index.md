@@ -28,7 +28,8 @@ Yes, we need you to be ambitious and creative, but we also need you to understan
 As a designer at WARP, you will play an integral role in a high-performing, international team. We offer relocation opportunities to the Netherlands and are based in a beautiful space conveniently located next to Rotterdam’s Centraal Station.
 
 ### Apply
-Please send your motivation letter and resume to talent@wearereasonablepeople.com
+Please send your motivation letter and resume to [talent@wearereasonablepeople.com](mailto:talent@wearereasonablepeople.com)
+
 Could you let us know, how did you hear about the job opening?
 
 
